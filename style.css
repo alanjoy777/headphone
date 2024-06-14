@@ -1,0 +1,169 @@
+#section{
+    width: 100%;
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    
+}
+.navbar-toggler-icon{
+    color: black;
+    
+}
+.dropdown-menu{
+    /* margin-left: 650px; */
+}
+.btn{
+    background-color: white;
+    
+}
+/* .dropdown-menu{
+    width: 100%;
+    padding: 50px;
+    /* margin-left: 500px; */
+    /* border: none; */
+    /* padding-left: 500px; */
+
+li{
+   width: 100%;
+   text-align: center;
+   font-size: medium;
+}
+ul{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border: 0;
+}
+.dropdown-item{
+    font-family:"Roboto Condensed", sans-serif;
+  
+}
+#container{
+    margin-top: 250px;
+}
+#section2{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+#section3{
+    width: 100%;
+    height: 90px;
+    background-color: yellow;
+}
+body{
+    background-color: whitesmoke;
+}
+#section4{
+    width: 100%;
+    height: auto;
+}
+#btn{
+
+
+    position: absolute;
+    top: 5px;
+    left: 3px;
+
+    
+}
+
+.card:hover{
+    border: 1px solid black;
+    scale: 1.05;
+    
+}
+#row{
+    padding-top: 60px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contain1{
+    
+    width: 100px;
+    
+
+    margin-top: 97px;
+    margin-left: 148px;
+
+    
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgb(49, 34, 34);
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+
+
+
+}
+.content{
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.content svg{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+.content p{
+    position: absolute;
+    top:160px ;
+    right: 0px;
+    left: 140px;
+    }
+    .contain1:hover .overlay{
+        opacity: 0.8;
+    }
+
+   #row1{
+    position: relative;
+   } 
+   #btn1{
+    position: relative;
+    left: 1000px;
+    bottom: 40px;
+   }
+   .buyForUs1{
+    height: 249px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2165089995/display_1500/stock-vector-simple-racing-start-number-vector-template-2165089995.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .buyForUs2{
+    height: 249px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2144351831/display_1500/stock-vector-vector-sports-numbers-simple-design-2144351831.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .buyForUs3{
+    height: 249px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2144351913/display_1500/stock-vector-vector-sports-numbers-simple-design-2144351913.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   .buyForUs4{
+    height: 249px;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2165089987/display_1500/stock-vector-simple-racing-start-number-vector-template-2165089987.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   svg{
+    margin: 5px;
+   }
